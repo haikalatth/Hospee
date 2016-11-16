@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/penyakit"
         android:layout_marginTop="81dp"
-        android:id="@+id/imageButton20"
+        android:id="@+id/bpenyakit"
         android:layout_below="@+id/imageButton19"
         android:layout_toLeftOf="@+id/imageButton19"
         android:layout_toStartOf="@+id/imageButton19" />
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/food"
         android:id="@+id/imageButton21"
-        android:layout_alignTop="@+id/imageButton20"
+        android:layout_alignTop="@+id/bpenyakit"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -74,9 +74,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:id="@+id/textView8"
-        android:layout_below="@+id/imageButton20"
-        android:layout_alignRight="@+id/imageButton20"
-        android:layout_alignEnd="@+id/imageButton20" />
+        android:layout_below="@+id/bpenyakit"
+        android:layout_alignRight="@+id/bpenyakit"
+        android:layout_alignEnd="@+id/bpenyakit" />
 
     <TextView
         android:text="Golongan Darah"

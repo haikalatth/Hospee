@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".penyakit" />
+        <activity android:name=".diare" />
+        <activity android:name=".tifus" />
+        <activity android:name=".maag" />
+        <activity android:name=".demam" />
+        <activity android:name=".muntaber" />
+        <activity android:name=".flu" />
+        <activity android:name=".gatal"></activity>
     </application>
 
 </manifest>
