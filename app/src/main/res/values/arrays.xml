@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="places">
+        <item>Tempe</item>
+        <item>Terong</item>
+        <item>Belut</item>
+        <item>Lele</item>
+        <item>Ampela Ati</item>
+    </string-array>
+
+    <string-array name="gizi_desc">
+        <item> Mengandung serat pangan, kalsium, vitamin B dan zat besi. Kandungan antibiotika dan antioksidan di dalamnya           dapat menyembuhkan infeksi serta mencegah penyakit degeneratif.
+        Dalam 100 gram tempe mengandung protein 20,8 gram, lemak 8,8 gram, serat 1,4 gram, kalsium 155 miligram, fosfor 326         miligram, zat besi 4 miligram, vitamin B1 0,19 miligram, karoten 34 mikrogram.
+        </item>
+        
+        <item> mengandung energi sebesar 24 kilokalori, protein 1,1 gram, karbohidrat 5,5 gram, lemak 0,2 gram, kalsium 15           miligram, fosfor 37 miligram, dan zat besi 0 miligram.  Selain itu di dalam Terong juga terkandung vitamin A                 sebanyak 30 IU, vitamin B1 0,04 miligram dan vitamin C 5 miligram 
+        </item>
+        
+        <item>asam lemak tak jenuh omega 3 dan Omega 6,  protein, kolesterol, isoleusin, sodium, Vitamin A, C, E, Thiamin,           Niacin, Riboflavin, Vitamin B6, Volat, Kalsium, Vitamin B12, Zat Besi, Magnesium fosfor, Selenium dan Zinc.
+        </item>
+        
+        <item>Berdasarkan hasil penelitian,lele memiliki kandungan gizi yang cukup tinggi.dalam 500 gram lele dumbo (kira-           kira terdiri dari 4 ekor)mengandung 12 gram protein,energi 149 kalori,lemak 8,4 gram dan karbohidrat 6,4 gram.
+
+        Ketika dimasak (panas kering),lele liar memberikan 0,333 gram omega-3 asam lemak,berasal dari EPA (0.1g),DHA                 (0.137g) dan ALA (0.096g),per 100 gram ikan lele liar.
+
+        Ketika dimasak (panas kering),lele budidaya memberikan 0,259 gram omega-3 asam lemak, berasal dari EPA (0.049g),DHA         (0,128) dan ALA (0.082g), per 100 gram ikan lele budidaya.
+        </item>
+        
+        <item>mengandung energi sebesar 108 kilokalori, protein 17,2 gram, karbohidrat 0,4 gram, lemak 4,1 gram, kalsium 0              miligram, fosfor 0 miligram, dan zat besi 0 miligram.  Selain itu di dalam Ampela Ayam juga terkandung vitamin A            sebanyak 0 IU, vitamin B1 0 miligram dan vitamin C 0 miligram.  Hasil tersebut didapat dari melakukan penelitian            terhadap 100 gram Ampela Ayam, dengan jumlah yang dapat dimakan sebanyak 100 %.
+        </item>
+
+    </string-array>
+    <string-array name="gizi_details">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+
+    </string-array>
+    <string-array name="place_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+    </string-array>
+    <array name="places_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+    </array>
+</resources>

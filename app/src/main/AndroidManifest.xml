@@ -22,7 +22,8 @@
         <activity android:name=".demam" />
         <activity android:name=".muntaber" />
         <activity android:name=".flu" />
-        <activity android:name=".gatal"></activity>
+        <activity android:name=".gatal" />
+        <activity android:name=".gizi"></activity>
     </application>
 
 </manifest>
