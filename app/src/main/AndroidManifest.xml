@@ -23,7 +23,8 @@
         <activity android:name=".muntaber" />
         <activity android:name=".flu" />
         <activity android:name=".gatal" />
-        <activity android:name=".gizi"></activity>
+        <activity android:name=".gizi" />
+        <activity android:name=".golongan"></activity>
     </application>
 
 </manifest>

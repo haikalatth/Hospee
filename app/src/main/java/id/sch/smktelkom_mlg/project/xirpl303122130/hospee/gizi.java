@@ -34,7 +34,7 @@ public class gizi extends AppCompatActivity {
 
     private void fillData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.places);
+        String[] arJudul = resources.getStringArray(R.array.);
         String[] arDeskripsi = resources.getStringArray(R.array.gizi_desc);
         TypedArray a = resources.obtainTypedArray(R.array.places_picture);
         Drawable[] arFoto = new Drawable[a.length()];
