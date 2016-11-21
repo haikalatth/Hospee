@@ -7,7 +7,7 @@
     android:padding="16dp">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView1"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:scaleType="centerCrop"
@@ -20,12 +20,12 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_toEndOf="@+id/imageView1"
-        android:layout_toRightOf="@+id/imageView1"
+        android:layout_toEndOf="@id/imageView1"
+        android:layout_toRightOf="@id/imageView1"
         android:ellipsize="end"
         android:maxLines="1"
-        android:text="Judul"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:text="Judul" />
 
     <TextView
         android:id="@+id/textViewDeskripsi1"
@@ -38,5 +38,4 @@
         android:maxLines="2"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         tools:text="Deskripsi" />
-
 </RelativeLayout>

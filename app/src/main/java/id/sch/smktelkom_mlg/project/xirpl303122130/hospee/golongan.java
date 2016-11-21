@@ -10,34 +10,31 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.project.xirpl303122130.hospee.adapter.DarahAdapter;
-import id.sch.smktelkom_mlg.project.xirpl303122130.hospee.model.darah;
+import id.sch.smktelkom_mlg.project.xirpl303122130.hospee.adapter.golonganAdapter;
 
 public class golongan extends AppCompatActivity {
 
-    ArrayList<darah> mList1 = new ArrayList<>();
-    DarahAdapter mAdapter1;
-
+    ArrayList<golongan> mList1 = new ArrayList<>();
+    golonganAdapter mAdapter1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_golongan);
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView1);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter1 = new DarahAdapter(mList1);
+        mAdapter1 = new golonganAdapter(mList1);
         recyclerView.setAdapter(mAdapter1);
 
-        fillData();
-
+        fillDataku();
     }
 
-    private void fillData() {
-        Resources resources = getResources();
-        String[] arJudul1 = resources.getStringArray(R.array.darah);
-        String[] arDeskripsi1 = resources.getStringArray(R.array.desc_darah);
-        TypedArray a = resources.obtainTypedArray(R.array.picture_darah);
+    private void fillDataku() {
+        Resources resources1 = getResources();
+        String[] arJudul1 = resources1.getStringArray(R.array.golongan);
+        String[] arDeskripsi1 = resources1.getStringArray(R.array.desc_golongan);
+        TypedArray a = resources1.obtainTypedArray(R.array.picture_golongan);
         Drawable[] arFoto1 = new Drawable[a.length()];
         for (int i = 0; i < arFoto1.length; i++)
         {
@@ -47,10 +44,9 @@ public class golongan extends AppCompatActivity {
 
         for (int i = 0; i < arJudul1.length; i++)
         {
-            mList1.add(new darah(arJudul1[i], arDeskripsi1[i], arFoto1[i]));
+            mList1.add(new golongan(arJudul1[i], arDeskripsi1[i], arFoto1[i]));
         }
         mAdapter1.notifyDataSetChanged();
+
     }
-
-
 }

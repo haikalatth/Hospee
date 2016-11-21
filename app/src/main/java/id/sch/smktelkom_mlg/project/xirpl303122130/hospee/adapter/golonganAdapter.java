@@ -10,18 +10,19 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl303122130.hospee.R;
-import id.sch.smktelkom_mlg.project.xirpl303122130.hospee.model.darah;
+import id.sch.smktelkom_mlg.project.xirpl303122130.hospee.model.golongan;
 
 /**
- * Created by andini on 20/11/2016.
+ * Created by user on 21/11/2016.
  */
 
-public class DarahAdapter extends RecyclerView.Adapter<DarahAdapter.ViewHolder> {
-    ArrayList<darah> darahArrayList;
+public class golonganAdapter extends RecyclerView.Adapter<golonganAdapter.ViewHolder> {
+    ArrayList<golongan> golonganArrayList;
 
-    public DarahAdapter(ArrayList<darah> darahArrayList) {
-        this.darahArrayList = darahArrayList;
+    public golonganAdapter(ArrayList<golongan> golonganArrayList) {
+        this.golonganArrayList = golonganArrayList;
     }
+
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -32,21 +33,21 @@ public class DarahAdapter extends RecyclerView.Adapter<DarahAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        darah Darah = darahArrayList.get(position);
-        holder.tvJudul1.setText(Darah.judul1);
-        holder.tvJudul1.setText(Darah.deskripsi1);
-        holder.ivFoto1.setImageDrawable(Darah.foto1);
-
+        golongan Golongan = golonganArrayList.get(position);
+        holder.tvJudul1.setText(Golongan.judul1);
+        holder.tvDeskripsi1.setText(Golongan.deskripsi1);
+        holder.ivFoto1.setImageDrawable(Golongan.foto1);
     }
 
     @Override
     public int getItemCount() {
-        if (darahArrayList != null)
-            return darahArrayList.size();
+        if (golonganArrayList != null)
+            return golonganArrayList.size();
         return 0;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
+
         ImageView ivFoto1;
         TextView tvJudul1;
         TextView tvDeskripsi1;
