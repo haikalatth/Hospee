@@ -36,16 +36,16 @@ public class golongan extends AppCompatActivity {
     private void fillData() {
         Resources resources = getResources();
         String[] arJudul1 = resources.getStringArray(R.array.darah);
-        String[] arDeskripsi1 = resources.getStringArray(R.array.darah_desc);
-        TypedArray a = resources.obtainTypedArray(R.array.darah_picture);
+        String[] arDeskripsi1 = resources.getStringArray(R.array.desc_darah);
+        TypedArray a = resources.obtainTypedArray(R.array.picture_darah);
         Drawable[] arFoto1 = new Drawable[a.length()];
-        for (int i = 0; i < arFoto1.length; i++) ;
+        for (int i = 0; i < arFoto1.length; i++)
         {
             arFoto1[i] = a.getDrawable(i);
         }
         a.recycle();
 
-        for (int i = 0; i < arJudul1.length; i++) ;
+        for (int i = 0; i < arJudul1.length; i++)
         {
             mList1.add(new darah(arJudul1[i], arDeskripsi1[i], arFoto1[i]));
         }
