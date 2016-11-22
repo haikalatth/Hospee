@@ -19,12 +19,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.bgizi).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, gizi.class));
-            }
-        });
-
     }
 }
