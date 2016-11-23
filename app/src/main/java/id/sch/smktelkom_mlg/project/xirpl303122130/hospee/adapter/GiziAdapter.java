@@ -1,5 +1,7 @@
 package id.sch.smktelkom_mlg.project.xirpl303122130.hospee.adapter;
 
+import android.content.Context;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,9 +20,11 @@ import id.sch.smktelkom_mlg.project.xirpl303122130.hospee.model.Gizi;
 
 public class GiziAdapter extends RecyclerView.Adapter<GiziAdapter.ViewHolder> {
     ArrayList<Gizi> giziList;
+    IGiziAdapter mIGiziAdapter;
 
-    public GiziAdapter(ArrayList<Gizi> giziList) {
+    public GiziAdapter(Context context, ArrayList<Gizi> giziList) {
         this.giziList = giziList;
+        mIGiziAdapter = (IGiziAdapter) context;
     }
 
     @Override
@@ -35,7 +39,7 @@ public class GiziAdapter extends RecyclerView.Adapter<GiziAdapter.ViewHolder> {
         Gizi gizi = giziList.get(position);
         holder.tvJudulGizi.setText(gizi.judulGizi);
         holder.tvDeskripsiGizi.setText(gizi.deskripsiGizi);
-        holder.ivFotoGizi.setImageDrawable(gizi.fotoGizi);
+        holder.ivFotoGizi.setImageURI(Uri.parse(gizi.fotoGizi));
     }
 
     @Override
@@ -43,6 +47,10 @@ public class GiziAdapter extends RecyclerView.Adapter<GiziAdapter.ViewHolder> {
         if (giziList != null)
             return giziList.size();
         return 0;
+    }
+
+    public interface IGiziAdapter {
+        void doClickGizi(int pos);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -55,6 +63,17 @@ public class GiziAdapter extends RecyclerView.Adapter<GiziAdapter.ViewHolder> {
             ivFotoGizi = (ImageView) itemView.findViewById(R.id.imageViewGizi);
             tvJudulGizi = (TextView) itemView.findViewById(R.id.textViewJudulGizi);
             tvDeskripsiGizi = (TextView) itemView.findViewById(R.id.textViewDeskripsiGizi);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    mIGiziAdapter.doClickGizi(getAdapterPosition());
+                }
+            });
+
         }
+
+
     }
+
+
 }

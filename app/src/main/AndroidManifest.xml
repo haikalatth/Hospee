@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainGizi"></activity>
+        <activity android:name=".MainGizi" />
+        <activity
+            android:name=".DetailGizi"
+            android:label="@string/title_activity_detail_gizi"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
