@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewGoldar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/gola" />
+
+    <TextView
+        android:id="@+id/textViewJudulGoldar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/imageViewGoldar"
+        android:layout_toRightOf="@+id/imageViewGoldar"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="JudulGoldar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/textViewDeskripsiGoldar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewJudulGoldar"
+        android:layout_alignStart="@+id/textViewJudulGoldar"
+        android:layout_below="@+id/textViewJudulGoldar"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Deskripsi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</RelativeLayout>

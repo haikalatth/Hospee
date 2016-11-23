@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainGizi"></activity>
+        <activity android:name=".MainGizi" />
+        <activity android:name=".MainGoldar"></activity>
     </application>
 
 </manifest>
