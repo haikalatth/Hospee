@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewGizi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/tempe" />
+
+    <TextView
+        android:id="@+id/textViewJudulGizi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/imageViewGizi"
+        android:layout_toRightOf="@+id/imageViewGizi"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:text="Judul" />
+
+    <TextView
+        android:id="@+id/textViewDeskripsiGizi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewJudulGizi"
+        android:layout_alignStart="@+id/textViewJudulGizi"
+        android:layout_below="@+id/textViewJudulGizi"
+        android:layout_toLeftOf="@+id/bNextGizi"
+        android:layout_toStartOf="@+id/bNextGizi"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Deskripsi" />
+
+    <ImageButton
+        android:id="@+id/bNextGizi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+</RelativeLayout>
