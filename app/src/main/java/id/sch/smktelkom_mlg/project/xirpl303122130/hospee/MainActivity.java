@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.bpenyakit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,penyakit.class));
+                startActivity(new Intent(MainActivity.this, MainGizi.class));
             }
         });
 
