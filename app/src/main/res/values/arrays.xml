@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
   ~ Copyright (C) 2016 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,65 +20,150 @@
         <item>Terong</item>
         <item>Belut</item>
         <item>Lele</item>
-        <item>Rempelo Ati</item>
+        <item>Ikan Salmon</item>
     </string-array>
-    <string-array name="desc_gizi">
+
+    <string-array name="gizi_desc">
+        <item> Mengandung serat pangan, kalsium, vitamin B dan zat besi. Kandungan antibiotika dan antioksidan di dalamnya           dapat menyembuhkan infeksi serta mencegah penyakit degeneratif.
+        Dalam 100 gram tempe mengandung protein 20,8 gram, lemak 8,8 gram, serat 1,4 gram, kalsium 155 miligram, fosfor 326         miligram, zat besi 4 miligram, vitamin B1 0,19 miligram, karoten 34 mikrogram.
+        </item>
+
+        <item> mengandung energi sebesar 24 kilokalori, protein 1,1 gram, karbohidrat 5,5 gram, lemak 0,2 gram, kalsium 15           miligram, fosfor 37 miligram, dan zat besi 0 miligram.  Selain itu di dalam Terong juga terkandung vitamin A                 sebanyak 30 IU, vitamin B1 0,04 miligram dan vitamin C 5 miligram
+        </item>
+
+        <item>asam lemak tak jenuh omega 3 dan Omega 6,  protein, kolesterol, isoleusin, sodium, Vitamin A, C, E, Thiamin,           Niacin, Riboflavin, Vitamin B6, Volat, Kalsium, Vitamin B12, Zat Besi, Magnesium fosfor, Selenium dan Zinc.
+        </item>
+
+        <item>Berdasarkan hasil penelitian,lele memiliki kandungan gizi yang cukup tinggi.dalam 500 gram lele dumbo (kira-           kira terdiri dari 4 ekor)mengandung 12 gram protein,energi 149 kalori,lemak 8,4 gram dan karbohidrat 6,4 gram.
+
+        Ketika dimasak (panas kering),lele liar memberikan 0,333 gram omega-3 asam lemak,berasal dari EPA (0.1g),DHA                 (0.137g) dan ALA (0.096g),per 100 gram ikan lele liar.
+
+        Ketika dimasak (panas kering),lele budidaya memberikan 0,259 gram omega-3 asam lemak, berasal dari EPA (0.049g),DHA         (0,128) dan ALA (0.082g), per 100 gram ikan lele budidaya.
+        </item>
+
+        <item>
+            Secara nutrisi, ikan ini mengandung protein dan vitamin D yang tinggi. Ikan ini juga mengandung kolesterol dengan kadar yang bervariasi antara 23–214 mg/100 g tergantung spesiesnya. Ikan salmon yang telah dimasak mengandung DHA antara 500–1500 mg dan EPA antara 300–1000 mg per 100 gram sajian.
+        </item>
+
+    </string-array>
+
+    <string-array name="gizi_manfaat">
+        <item>  - Membantu Menurunkan Kadar Kolesterol Jahat
+                Tempe mengandung protein yang sangat tinggi. Tidak seperti protein dari sumber hewani, protein dalam tempe memiliki manfaat tambahan dalam menurunkan kadar kolesterol jahat (LDL) dan meningkatkan kadar kolesterol baik (HDL).
+                Dengan kata lain, tempe berpotensi membantu menurunkan risiko terjadinya serangan jantung, penyakit jantung, dan stroke. Selain menurunkan kadar kolesterol, tempe juga dapat membantu menurunkan kadar gula darah dan trigliserida pada penderita diabetes.
+                - Membantu Menurunkan Tekanan Darah
+                Tempe mengandung magnesium, dimana zat ini memainkan peranan penting terhadap sistem kardiovaskular dan bertanggung jawab terhadap lebih dari 300 proses metabolisme dalam tubuh. Magnesium bermanfaat untuk mencegah terjadinya pembekuan darah, menurunkan tekanan darah, menjaga kekuatan tulang, dan membantu mencegah terjadinya komplikasi yang berkaitan dengan diabetes.
+                - Memiliki kandungan antibiotik natural
+Jamur rhizopus dalam tempe dapat membroduksi antibiotok alamy yang berperan dalam mencegah terjangkitnya infeksi penyakit diare serta disentri.
+        </item>
+
+        <item>  - Menyehatkan Jantung
+                Terong dapat menurunkan tingkat kolesterol dan juga membantu menstabilkan tingkat tekanan darah. Hal ini pada gilirannya akan menurunkan risiko penyakit jantung. Tubuh juga terus terhidrasi dengan baik berkat kandungan kalium dalam sayuran ini. Hal ini memastikan bahwa tidak ada retensi cairan yang mencegah penyakit jantung koroner.
+                - Menurunkan Berat Badan
+                Terong dianggap mengandung kadar air yang tinggi namun rendah kalori. Hal ini membuat terong sangat ideal sebagai makanan sehat bagi orang-orang yang ingin mengurangi berat badan. Tekstur sayuran yang kenyal adalah karakteristik seperti ini adalah salah satu makanan harus dimakan dalam bentuk mentah sebanyak mungkin
+                - Membantu pencernaan
+                Menjaga sistem pencernaan yang tetap sehat terdapat pada terong karena kandungan serat yang baik. Hal ini akan mencegah sembelit  dan resiko kanker usus besar juga dapat dihilangkan.
+        </item>
+
+        <item> - Meningkatkan kesehatan otot
+Belut juga kaya akan kandungan arginin (asam amino nonesensial) yaitu hormon yang berpengaruh terhadap pertumbuhan manusia, atau biasa disebut dengan human growth hormone (HGH). HGH inilah yang mampu meningkatkan kesehatan otot dan mengurangi penumpukan lemak didalam tubuh. Beberapa uji laboratorium menunjukkan bahwa arganin dapat menghambat perkembangan sel-sel kanker payudara.
+                - Menambah Stamina
+Belut, binatang yang mirip ular ini memiliki kandungan kalori yang cukup tinggi yaitu sebesar 303 kkal /100 gram daging, lebih tinggi dibanding telur yang hanya sebesar 162 kkal/ 100 gram tanpa kulit,kandungan kalori belut juga lebih besar dari daging sapi yang hanya sebesar 207 kkal/100 gram. Dari fakta ini menunjukkan bahwa belut dapat menjadi makanan penambah stamina yang cukup baik.
+                - Mencegah Anemia
+Kandungan zat besi dalam belut cukup tinggi yaitu sebesar 20 mg/100 gram, jumlah ini lebih banyak dibanding dengan kandungan zat besi yang terdapat dalam telur dan daging yang hanya sebesar 2,8 mg/ 100gram. Dengan mengkonsumsi 125 gram belut setiap hari sudah cukup untuk memenuhi kebutuhan zat besi bagi tubuh, yaitu sebesar 25 mg per hari. Zat besi sangat bermanfaat untuk pencegahan penyakit anemia.
+        </item>
+
+        <item> - Kaya Omega 3
+                Bermanfaat untuk membantu pada proses perkembangan otak janin pada ibu hamil. Juga penting untuk            perkembangan fungsi penglihatan dan saraf bayi.
+                - Sumber Protein Pendek
+                Ini berakibat daging lele lebih gampang untuk dicerna oleh tubuh Anda dan sangat aman untuk sistem pencernaan tubuh, jika anda ingin memakan daging yang mudah di cerna, lele menjadi pilihan utama.
+                -  Rendah lemak
+                Lemak yang terdapat pada ikan leleyaitu trigliserida yang netral. Lemak yang rendah ini banyak terdapat di bagian perut, terutama pada tubuh ikan bagian sebelah bawah serta yang terdapat di dalam hati ikan. Terdapat juga lemak yang bersifat komplek. sebab rendah lemak maka kolesterol secara tak langsung bisa ikut tertekan.
+                - Kaya Phospor
+                Kandungan phospor  pada ikan lele yang mencapai 167 mg/ 100 gm terbukti lebih tinggi dari pada yang terkandung di telur yang hanya 100 mg. Phospor bemanfaat untuk memberi kekuatan dan energi dalam metabolisme lemak dan pati, menjadi penunjang kesehatan gusi dan gigi, membantu sistesis DNA, serta membantu penyerapan / pemakaian kalsium  Phospor juga lebih banyak dibutuhkan pada ibu hamil karena bermanfaat untuk pembentukan tulang pada janin.
+        </item>
+
+        <item>  - Dapat Mencegah Penyakit Jantung
+                Daging Salmon Lemak 6.34 g terdapat asam lemak omega-3 yang dapat mengurangi kolesterol jahat dan trigliserida, pertahankan textur lembut pembuluh darah, dan Memperkuat otot jantung.
+                - Mencegah Hipertensi
+                Daging Salmon terdapat Omega-3 asam lemak menjaga mengontrol tekanan denyut jantung dan tekanan darah, Mencegah Hipertensi.
+                - Menjaga Kesehatan Mata
+                Daging Salmon Vitamin Vitamin A 40 IU Omega-3 asam lemak dan asam amino dapat membantu pertahanan kesehatan mata dan menjaga degenerasi makula, mata pedih dan kelelahan mata.
+                - Melindungi tubuh terhadap radikal bebas
+                Fosfor (29%) 200 mg Daging Salmon banyak mengandung selenium, mineral yang melindungi tubuh menjaga sel akibat kerusakan radikal bebas yang dapat melemahkan Sel-sel ini penyakit.
+        </item>
+
+
+    </string-array>
+
+    <array name="gizi_picture">
+        <item>@drawable/tempe</item>
+        <item>@drawable/terong</item>
+        <item>@drawable/belut</item>
+        <item>@drawable/lele</item>
+        <item>@drawable/salmon</item>
+    </array>
+
+    <string-array name="darah">
+        <item>Darah A</item>
+        <item>Darah AB</item>
+        <item>Darah B</item>
+        <item>Darah O</item>
+    </string-array>
+    <string-array name="darah_desc">
         <item>Apabila eritrosit seseorang mengandung aglutinogen A, sedangkan plasma darahnya mengandung aglutinin (3 (anti-B) maka orang tersebut bergolongan darah A.
         </item>
         <item>Apabila eritrosit seseorang mengandung aglutinogen B, sedangkan plasma darahnya mengandung aglutinin a (anti-A) maka orang tersebut bergolongan darah B.</item>
         <item>Apabila eritrosit seseorang mengandung aglutinogen A dan aglutinogen B, sedangkan plasma darahnya tidak mengandung aglutinin maka orang tersebut bergolongan darah AB.</item>
         <item>Apabila eritrosit seseorang tidak mengandung aglutinogen, sedangkan plasma darah mengandung aglutinin a dan aglutinin (3 maka orang tersebut bergolongan darah 0.</item>
-        <item>Apabila eritrosit seseorang tidak mengandung aglutinogen, sedangkan plasma darah mengandung aglutinin a dan aglutinin (3 maka orang tersebut bergolongan darah 0.</item>
     </string-array>
-    <string-array name="details_gizi">
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+    <string-array name="darah_details">
+        <item>rang dengan golongan darah A memiliki kekuatan karakter yang mengakar kuat yang akan membantu mereka untuk tetap tenang dalam krisis ketika semua orang panik menghadapi situasi serupa. Mereka cenderung menghindari konfrontasi, dan sesungguhnya kurang nyaman berada di antara orang banyak. Mereka biasanya pemalu dan terkadang suka mengasingkan diri. Mereka mencari keharmonisan dan sangat sopan, tetapi mereka sebenarnya tidak pernah benar-benar cocok dengan orang lain. Mereka sangat bertanggung jawab. Jika ada pekerjaan yang harus diselesaikan, mereka lebih suka mengerjakannya sendiri. Orang-orang dengan golongan darah ini selalu mengukir sukses dan sangat perfeksionis. Mereka juga sangat kreatif, dan paling artistik di antara semua golongan darah yang ada karena kesensitifan mereka.
         </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <item>Orang dengan golongan darah B merupakan orang yang paling praktis di antara semua golongan darah yang ada. Mereka adalah spesialis di bidang yang digelutinya. Ketika mereka memulai sebuah proyek, mereka akan menghabiskan waktu lebih banyak untuk memahami dan mencoba mengikuti semua petunjuk/arahan yang diperlukan untuk itu. Jika mengerjakan sesuatu, mereka selalu fokus kepada apa yang tengah dikerjakan. Mereka cenderung berpedoman pada tujuan dan mengejarnya sampai tuntas walau pun kelihatannya pekerjaan itu tidak mungkin dilakukan. Mereka cenderung kurang kooperatif. Mereka lebih suka mengikuti peraturan dan gagasan mereka sendiri. Orang dengan golongan darah B memberikan perhatian lebih kepada pikiran daripada perasaan mereka, dan karenanya, terkadang kelihatannya dingin dan serius.
         </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <item>Orang dengan golongan darah AB susah dikelompokkan. Mereka dapat memiliki karakteristik di kedua ujung spektrum pada waktu bersamaan. Artinya, di satu sisi mereka pemalu, di sisi lain, sangat terbuka. Mereka dengan mudah mengubah satu sisi ke sisi yang lain. Mereka dapat dipercaya dan bertanggung jawab, namun tidak dapat bertanggung jawab jika terlalu banyak yang dituntut dari mereka. Mereka tidak keberatan membantu sepanjang sesuai dengan syarat mereka. Orang-orang dengan golongan darah ini sangat suka seni dan metafisika. AB juga dianggap sebagai tipe darah terburuk di Jepang. Mereka juga suka menentukan syarat sendiri dan berhak menggugurkannya jika tidak sesuai dengan harapan mereka. Mereka dikenal sangat sensitif dan penuh perhatian.
         </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <item>Orang dengan golongan darah O paling suka berkomunikasi dengan mereka yang penuh semangat. Orang-orang yang tidak memiliki semangat hidup yang baik sulit menjadi teman dekat orang golongan ini. Karena mereka selalu semangat sejalan dengan vitalitas yang mereka miliki. Mereka akan dapat berkomunikasi berjam-jam dengan orang yang cocok dan dapat mengikuti ritme bicara mereka yang sangat optimistis dan motivatif.
         </item>
     </string-array>
-    <string-array name="locations_gizi">
-        <item>8 Rue Scribe, 75009 Paris, France</item>
-        <item>Piazza del Capitolo - 50122 Florence</item>
-        <item>New York City</item>
-        <item>231 Asakusa, Taitō-ku, Tokyo, Japan</item>
-        <item>231 Asakusa, Taitō-ku, Tokyo, Japan</item>
+    <array name="darah_picture">
+        <item>@drawable/gola</item>
+        <item>@drawable/golab</item>
+        <item>@drawable/golb</item>
+        <item>@drawable/golo</item>
+    </array>
+
+
+    <string-array name="Penyakit">
+        <item>Flu</item>
+        <item>Diare</item>
+        <item>Tifus</item>
+        <item>Maag</item>
     </string-array>
-    <array name="picture_gizi">
-        <item>@drawable/a</item>
-        <item>@drawable/b</item>
-        <item>@drawable/c</item>
-        <item>@drawable/d</item>
-        <item>@drawable/e</item>
+    <string-array name="deskripsi_penyakit">
+        <item>Flu adalah penyakit menular umum yang disebabkan oleh virus, juga dikenal sebagai influenza. Flu sering salah dianggap seperti pilek biasa karena mempunyai gejala – gejala yang sama. Namun, virus yang menyebabkan flu berbeda dari pilek dan flu cenderung lebih serius. Bahkan, flu parah dapat membahayakan nyawa.</item>
+        <item>Diare adalah sebuah penyakit di saat tinja atau feses berubah menjadi lembek atau cair yang biasanya terjadi paling sedikit tiga kali dalam 24 jam. Di negara berkembang, diare adalah penyebab kematian paling umum kematian balita, dan juga membunuh lebih dari 2,6 juta orang setiap tahunnya.</item>
+        <item>Tifus adalah penyakit infeksi sistemik yang disebabkan oleh kuman. Tifus atau disebut juga demam tifoid adalah penyakit yang disebabkan oleh bakteri Salmonella typhi dan penyakit ini banyak terdapat di negara-negara berkembang, seperti Indonesia, karena makanan atau minuman yang terkontaminasi oleh bakteri ini.</item>
+        <item>Penyakit maag adalah penyakit yang ditimbulkan oleh kelebihan asam yang diproduksi oleh lambung yang menyebabkan iritasi di selaput lendir lambung, dalam kondisi normal asam diperlukan untuk membantu pencernaan dalam mengolah makanan yang kita makan, selain dari kelebihan asam lambung sakit maag atau radang lambung atau tukak lambung adalah gejala penyakit yang menyerang lambung dikarenakan terjadi luka atau peradangan pada lambung.</item>
+
+
+    </string-array>
+    <string-array name="detail_penyakit">
+        <item>rang dengan golongan darah A memiliki kekuatan karakter yang mengakar kuat yang akan membantu mereka untuk tetap tenang dalam krisis ketika semua orang panik menghadapi situasi serupa. Mereka cenderung menghindari konfrontasi, dan sesungguhnya kurang nyaman berada di antara orang banyak. Mereka biasanya pemalu dan terkadang suka mengasingkan diri. Mereka mencari keharmonisan dan sangat sopan, tetapi mereka sebenarnya tidak pernah benar-benar cocok dengan orang lain. Mereka sangat bertanggung jawab. Jika ada pekerjaan yang harus diselesaikan, mereka lebih suka mengerjakannya sendiri. Orang-orang dengan golongan darah ini selalu mengukir sukses dan sangat perfeksionis. Mereka juga sangat kreatif, dan paling artistik di antara semua golongan darah yang ada karena kesensitifan mereka.
+        </item>
+        <item>Orang dengan golongan darah B merupakan orang yang paling praktis di antara semua golongan darah yang ada. Mereka adalah spesialis di bidang yang digelutinya. Ketika mereka memulai sebuah proyek, mereka akan menghabiskan waktu lebih banyak untuk memahami dan mencoba mengikuti semua petunjuk/arahan yang diperlukan untuk itu. Jika mengerjakan sesuatu, mereka selalu fokus kepada apa yang tengah dikerjakan. Mereka cenderung berpedoman pada tujuan dan mengejarnya sampai tuntas walau pun kelihatannya pekerjaan itu tidak mungkin dilakukan. Mereka cenderung kurang kooperatif. Mereka lebih suka mengikuti peraturan dan gagasan mereka sendiri. Orang dengan golongan darah B memberikan perhatian lebih kepada pikiran daripada perasaan mereka, dan karenanya, terkadang kelihatannya dingin dan serius.
+        </item>
+        <item>Orang dengan golongan darah AB susah dikelompokkan. Mereka dapat memiliki karakteristik di kedua ujung spektrum pada waktu bersamaan. Artinya, di satu sisi mereka pemalu, di sisi lain, sangat terbuka. Mereka dengan mudah mengubah satu sisi ke sisi yang lain. Mereka dapat dipercaya dan bertanggung jawab, namun tidak dapat bertanggung jawab jika terlalu banyak yang dituntut dari mereka. Mereka tidak keberatan membantu sepanjang sesuai dengan syarat mereka. Orang-orang dengan golongan darah ini sangat suka seni dan metafisika. AB juga dianggap sebagai tipe darah terburuk di Jepang. Mereka juga suka menentukan syarat sendiri dan berhak menggugurkannya jika tidak sesuai dengan harapan mereka. Mereka dikenal sangat sensitif dan penuh perhatian.
+        </item>
+        <item>Orang dengan golongan darah O paling suka berkomunikasi dengan mereka yang penuh semangat. Orang-orang yang tidak memiliki semangat hidup yang baik sulit menjadi teman dekat orang golongan ini. Karena mereka selalu semangat sejalan dengan vitalitas yang mereka miliki. Mereka akan dapat berkomunikasi berjam-jam dengan orang yang cocok dan dapat mengikuti ritme bicara mereka yang sangat optimistis dan motivatif.
+        </item>
+
+    </string-array>
+    <array name="gambar_penyakit">
+        <item>@drawable/gola</item>
+        <item>@drawable/golab</item>
+        <item>@drawable/golb</item>
+        <item>@drawable/golo</item>
     </array>
 </resources>

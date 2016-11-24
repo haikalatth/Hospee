@@ -61,7 +61,7 @@ public class GiziAdapter extends RecyclerView.Adapter<GiziAdapter.ViewHolder> {
         public ViewHolder(View itemView) {
             super(itemView);
             ivFotoGizi = (ImageView) itemView.findViewById(R.id.imageViewGizi);
-            tvJudulGizi = (TextView) itemView.findViewById(R.id.textViewJudulGizi);
+            tvJudulGizi = (TextView) itemView.findViewById(R.id.textViewJudulPenyakit);
             tvDeskripsiGizi = (TextView) itemView.findViewById(R.id.textViewDeskripsiGizi);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

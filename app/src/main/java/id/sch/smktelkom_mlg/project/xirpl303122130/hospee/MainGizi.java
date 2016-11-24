@@ -59,7 +59,7 @@ public class MainGizi extends AppCompatActivity implements GiziAdapter.IGiziAdap
 
     @Override
     public void doClickGizi(int pos) {
-        findViewById(R.id.bNextGizi).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.bNextPenyakit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainGizi.this, DetailGizi.class));

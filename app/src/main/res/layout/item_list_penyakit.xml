@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="?android:attr/selectableItemBackground"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageViewGizi"
@@ -29,8 +28,8 @@
         tools:text="Judul" />
 
     <TextView
-        android:id="@+id/textViewDeskripsiGizi"
-        android:layout_width="wrap_content"
+        android:id="@+id/textViewDeskripsiPenyakit"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textViewJudulPenyakit"
         android:layout_alignStart="@+id/textViewJudulPenyakit"
@@ -41,14 +40,5 @@
         android:maxLines="2"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         tools:text="Deskripsi" />
-
-    <ImageButton
-        android:id="@+id/bNextPenyakit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
 
 </RelativeLayout>
