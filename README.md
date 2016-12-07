@@ -13,22 +13,22 @@ makanan.
 
 ###Identitas Anggota Kelompok
 - Andinni Novidayanti
-    - Kelas    :XI RPL 3
-    - No.Absen :03
-    - NIS      :
-    - User     :andininovidayanti
+    - Kelas         :XI RPL 3
+    - No.Absen      :03
+    - NIS           :4660/1379.070
+    - User          :andininovidayanti
 - Fitia Mela Agnes
-    - Kelas    :XI RPL 3
-    - No.Absen :12
-    - NIS      :4715/1432.070
-    - User     :FitriaMelaAgnes
-- M.Haikal Athoriq
-    - Kelas    :XI RPL 3
-    - No.Absen :21
-    - NIS      :
-    - User     :haikalath
+    - Kelas         :XI RPL 3
+    - No.Absen      :12
+    - NIS           :4715/1432.070
+    - User          :FitriaMelaAgnes
+- Muhammad Haikal Atthoriq
+    - Kelas         :XI RPL 3
+    - No.Absen      :21
+    - NIS           :4769/1488.070
+    - User          :haikalatth
 - Salsabila Mega Shavira
-    - Kelas    :XI RPL 3
-    - No.Absen :30
-    - NIS      :4824/1543.070
-    - User     :salsasavira
+    - Kelas         :XI RPL 3
+    - No.Absen      :30
+    - NIS           :4824/1543.070
+    - User          :salsasavira
